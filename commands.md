@@ -1,3 +1,6 @@
+# This is the list of commands used in this project and a summary of the videos I followed to create this projec.
+- Credits to 'The Net Ninja' Youtube channel
+
 # Video 2: Creating a React Application
 - To make the project:
 ```
@@ -363,5 +366,12 @@ const handleClick = () => {
         navigate('/')
     })
 }
+```
+---
+# Video 32: 404 Pages
+- Create a 404 error page
+- Route to that page using '*'
+```
+<Route path='*' element={<NotFound/>}/>
 ```
 ---
